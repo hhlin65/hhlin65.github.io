@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hhlin65.github.io/sitemap.xml
