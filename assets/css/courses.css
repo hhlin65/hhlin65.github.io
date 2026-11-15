@@ -551,3 +551,10 @@ nav .nmb,nav .nmm{display:none}
 @media(max-width:899px){.hero .art{margin-top:0}}
 
 @media(max-width:700px){.lcol>*{order:0!important}.rcol>*{order:1!important}}
+
+/*lang-compact*/
+@media(max-width:420px){
+html[lang="en"] nav a,html[lang="vi"] nav a,html[lang="ja"] nav a{padding:7px 3px!important;font-size:11.5px!important}
+html[lang="en"] .hctl .langs select,html[lang="vi"] .hctl .langs select,html[lang="ja"] .hctl .langs select{font-size:10px;padding:3px 12px 3px 5px}
+.hero .eyebrow{font-size:13px;letter-spacing:.08em;max-width:100%}
+}
