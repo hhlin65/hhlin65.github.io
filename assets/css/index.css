@@ -388,3 +388,5 @@ nav .nmb,nav .nmm{display:none}
 .quick{grid-template-columns:repeat(2,minmax(0,1fr))}.qk{min-width:0}.qk>*{min-width:0;overflow-wrap:anywhere}.qk span,.qk b{white-space:normal}
 @media(max-width:420px){nav a{padding:7px 4px!important;font-size:12.5px!important;letter-spacing:0!important}.top .wrap{gap:4px}.hctl{padding:1px 4px 1px 1px}.hctl .langs select{padding:3px 14px 3px 6px;font-size:10.5px;background-position:right 3px center}}
 @media(min-width:701px){.quick{grid-template-columns:repeat(4,1fr)}}
+
+.quick{align-items:stretch}.quick>.qk{height:100%;align-content:center}
