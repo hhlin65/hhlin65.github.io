@@ -508,3 +508,8 @@ html[lang="en"] nav a,html[lang="vi"] nav a,html[lang="ja"] nav a{padding:7px 3p
 html[lang="en"] .hctl .langs select,html[lang="vi"] .hctl .langs select,html[lang="ja"] .hctl .langs select{font-size:10px;padding:3px 12px 3px 5px}
 .hero .eyebrow{font-size:13px;letter-spacing:.08em;max-width:100%}
 }
+/* AI 協作卡：標籤欄依內容寬度，窄螢幕非中文改上下排 */
+.tl.aic{display:grid;grid-template-columns:max-content 1fr;column-gap:16px;row-gap:8px}
+.tl.aic li{display:contents}
+.tl.aic a{margin-left:.4em}
+@media(max-width:520px){html:not([lang="zh-Hant"]) .tl.aic{grid-template-columns:1fr;row-gap:0}html:not([lang="zh-Hant"]) .tl.aic b{margin-top:10px}html:not([lang="zh-Hant"]) .tl.aic b:first-child{margin-top:0}}
